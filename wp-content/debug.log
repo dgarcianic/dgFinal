@@ -1,0 +1,22 @@
+[03-Dec-2018 18:00:02 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_current_template() in /Users/student/Desktop/dgFinal/wp-content/themes/twentysixteen-child/header.php:30
+Stack trace:
+#0 /Users/student/Desktop/dgFinal/wp-includes/template.php(688): require_once()
+#1 /Users/student/Desktop/dgFinal/wp-includes/template.php(647): load_template('/Users/student/...', true)
+#2 /Users/student/Desktop/dgFinal/wp-includes/general-template.php(41): locate_template(Array, true)
+#3 /Users/student/Desktop/dgFinal/wp-content/themes/twentysixteen/page.php(14): get_header()
+#4 /Users/student/Desktop/dgFinal/wp-includes/template-loader.php(74): include('/Users/student/...')
+#5 /Users/student/Desktop/dgFinal/wp-blog-header.php(19): require_once('/Users/student/...')
+#6 /Users/student/Desktop/dgFinal/index.php(17): require('/Users/student/...')
+#7 {main}
+  thrown in /Users/student/Desktop/dgFinal/wp-content/themes/twentysixteen-child/header.php on line 30
+[03-Dec-2018 18:00:33 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_current_template() in /Users/student/Desktop/dgFinal/wp-content/themes/twentysixteen-child/header.php:25
+Stack trace:
+#0 /Users/student/Desktop/dgFinal/wp-includes/template.php(688): require_once()
+#1 /Users/student/Desktop/dgFinal/wp-includes/template.php(647): load_template('/Users/student/...', true)
+#2 /Users/student/Desktop/dgFinal/wp-includes/general-template.php(41): locate_template(Array, true)
+#3 /Users/student/Desktop/dgFinal/wp-content/themes/twentysixteen/page.php(14): get_header()
+#4 /Users/student/Desktop/dgFinal/wp-includes/template-loader.php(74): include('/Users/student/...')
+#5 /Users/student/Desktop/dgFinal/wp-blog-header.php(19): require_once('/Users/student/...')
+#6 /Users/student/Desktop/dgFinal/index.php(17): require('/Users/student/...')
+#7 {main}
+  thrown in /Users/student/Desktop/dgFinal/wp-content/themes/twentysixteen-child/header.php on line 25
