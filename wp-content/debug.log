@@ -20,3 +20,12 @@ Stack trace:
 #6 /Users/student/Desktop/dgFinal/index.php(17): require('/Users/student/...')
 #7 {main}
   thrown in /Users/student/Desktop/dgFinal/wp-content/themes/twentysixteen-child/header.php on line 25
+[03-Dec-2018 19:18:34 UTC] PHP Parse error:  syntax error, unexpected ')' in /Users/student/Desktop/dgFinal/wp-content/themes/twentysixteen-child/template-parts/content-page-beautiful-data.php on line 39
+[03-Dec-2018 19:32:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header_beautiful_data() in /Users/student/Desktop/dgFinal/wp-content/themes/twentysixteen-child/page-beautiful-data.php:14
+Stack trace:
+#0 /Users/student/Desktop/dgFinal/wp-includes/template-loader.php(74): include()
+#1 /Users/student/Desktop/dgFinal/wp-blog-header.php(19): require_once('/Users/student/...')
+#2 /Users/student/Desktop/dgFinal/index.php(17): require('/Users/student/...')
+#3 {main}
+  thrown in /Users/student/Desktop/dgFinal/wp-content/themes/twentysixteen-child/page-beautiful-data.php on line 14
+[03-Dec-2018 19:37:02 UTC] PHP Parse error:  syntax error, unexpected 'endif' (T_ENDIF), expecting end of file in /Users/student/Desktop/dgFinal/wp-content/themes/twentysixteen-child/header-beautiful-data.php on line 33
