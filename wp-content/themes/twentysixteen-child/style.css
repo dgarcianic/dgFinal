@@ -7,3 +7,16 @@ Author URI: <your website>
 Template: twentysixteen
 Version: 0.1.0
 */
+
+
+p {color: red;}
+
+/* Reduce blog post titles */
+
+.entry-title {
+    font-size: 1.5rem;
+}
+
+.widget {
+    border-top: 2px solid #d0d0d0;
+}
