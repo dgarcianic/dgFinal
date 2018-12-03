@@ -83,6 +83,7 @@
 					<!-- </a> -->
 				<!-- </div> .header-image  -->
 			<?php endif; // End header image check. ?>
+			<?php wd_slider(1); ?>
 		</header><!-- .site-header -->
 
 		<div id="content" class="site-content">
