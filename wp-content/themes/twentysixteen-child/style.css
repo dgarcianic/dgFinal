@@ -14,6 +14,10 @@ Version: 0.1.0
     font-size: 1.5rem;
 }
 
+.post-navigation .post-title{
+    font-size: 1rem;
+}
+
 /* Reduce line weight and color of lines */
 
 .widget {
@@ -22,4 +26,24 @@ Version: 0.1.0
 
 .page-header {
     border-top: 2px solid #d0d0d0;
+}
+
+.post-navigation {
+    border-top: 2px solid #d0d0d0;
+    border-bottom: 2px solid #d0d0d0;
+}
+
+.post-navigation div + div {
+    border-top: 4px solid #d0d0d0;
+}
+
+.comments-title, .comment-reply-title {
+    border-top: 2px solid #d0d0d0;
+}
+
+/* Footer */
+
+.site-info p {
+    font-size: 1.3em;
+    color: black;
 }
